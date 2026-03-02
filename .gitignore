@@ -1,0 +1,28 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Streamlit/OS artifacts
+.streamlit/
+.DS_Store
+Thumbs.db
+
+# Project specific exclusions
+.gemini/
+brain/
+tmp/
+*.log
+.agent/
+.agents/
+_agent/
+_agents/
+tasks/
+implementation_plan*.md
+walkthrough*.md
+deployment_guide.md
+task_*.md
+REPORTE_EJECUTIVO_backup.md
